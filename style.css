@@ -3726,3 +3726,7 @@ body .content .sitetable .link .title a:hover, .res-nightmode .link .domain a:ho
 .footer {
     background: #fff;
 }
+
+#newlink .usertext-edit.md-container, #newlink input#url, #newlink textarea {
+    text-transform: none;
+}
