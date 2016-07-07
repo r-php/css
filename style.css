@@ -3729,3 +3729,17 @@ body .content .sitetable .link .title a:hover, .res-nightmode .link .domain a:ho
 #newlink .usertext-edit.md-container, #newlink input#url, #newlink textarea {
     text-transform: none;
 }
+
+.flair-php-contributor {
+  border: none;
+}
+
+.flair-php-contributor:before {
+  content: " ";
+  display: inline-block;
+  background: url(%%php-logo-flair%%) no-repeat;
+  width: 28px;
+  height: 14px;
+  vertical-align: middle;
+  margin-right: 3px;
+}
