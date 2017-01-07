@@ -534,6 +534,14 @@ body {
 
                 #search #searchexpando p {display: none !important;}
 
+        /* To overwrite the reddit default search expando bottom -Fix for Search page broken #3*/
+        .search-expando > .search-result-body > .md {
+            color:#888;
+        }
+
+        .search-expando.collapsed:before {
+            background: none;
+        }
 
         /* Submit Button */
         .morelink {
