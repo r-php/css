@@ -3751,3 +3751,7 @@ body .content .sitetable .link .title a:hover, .res-nightmode .link .domain a:ho
 .search-expando.collapsed:before {
     background: none;
 }
+
+.search-result-group {
+    background-color: #fff;
+}
