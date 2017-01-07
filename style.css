@@ -534,15 +534,6 @@ body {
 
                 #search #searchexpando p {display: none !important;}
 
-        /* To overwrite the reddit default search expando bottom -Fix for Search page broken #3*/
-        .search-expando > .search-result-body > .md {
-            color:#888;
-        }
-
-        .search-expando.collapsed:before {
-            background: none;
-        }
-
         /* Submit Button */
         .morelink {
             position: absolute;
@@ -3750,4 +3741,13 @@ body .content .sitetable .link .title a:hover, .res-nightmode .link .domain a:ho
   height: 14px;
   vertical-align: middle;
   margin-right: 3px;
+}
+
+/* To overwrite the reddit default search expando bottom -Fix for Search page broken #3*/
+.search-expando > .search-result-body > .md {
+    color:#000;
+}
+
+.search-expando.collapsed:before {
+    background: none;
 }
